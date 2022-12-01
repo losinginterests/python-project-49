@@ -5,6 +5,7 @@ def main():
 main()
 
 def welcome_user():
+    global name
     name = ''
     while name == '':
         print(f'May I have your name?', end = ' ')
